@@ -1,10 +1,10 @@
 title: Long Haul
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
-url: ""
+url: "test.com"
 baseurl: ""
 paginate_path: "blog/page:num/"
-permalink: blog/:title/
+# permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
@@ -20,9 +20,10 @@ navigation:
     url: /contact
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
+  github_url: https://github.com/
+  github: momento1/momento1.github.io
+  twitter: nikeed
+  facebook: nikeed
+  email: dkdmfpel@gmail.com
 
 google_analytics: "UA-58263416-1"
