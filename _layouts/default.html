@@ -9,9 +9,25 @@
 <body>
 
    {% include header.html %}
-
    <div class="content">
       <div class="container">
+         <!-- 검색 추가 -->
+         <div style="text-align: center;">
+            <form name="search" id="search-form">
+               <span class="search_font">&nbsp;검색 : &nbsp;</span>
+               <i class="icon-search"></i>
+               <input type="text" name="q" autocomplete="off" />
+            </form>
+              <script type="text/javascript" src="/assets/javascript/light-jekyll-search.js"></script>   
+              <script type="text/javascript">
+              
+                lightJekyllSearch.search({
+                    el : document.querySelector('form[name="search"] input[name="q"]'),
+                    placeholder : '검색어를 입력해주세요.',
+                    postJsonPath : '/assets/json/posts.json'
+                });
+              </script>
+         </div>
          {{ content }}
       </div>
    </div><!-- end .content -->
@@ -20,5 +36,4 @@
    {% include scripts.html %}
 
 </body>
-
 </html>
