@@ -1,7 +1,8 @@
 title: Long Haul
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
-url: "test.com"
+blog_url: "https://momento1.github.io"
+url: ""
 baseurl: ""
 paginate_path: "blog/page:num/"
 # permalink: blog/:title/
@@ -16,8 +17,8 @@ navigation:
     url: /index.html
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
+  # - title: Contact
+  #   url: /contact
 
 social:
   github_url: https://github.com/
